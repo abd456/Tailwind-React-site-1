@@ -17,11 +17,11 @@ const Navbar = () => {
 
       <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
       <ul className='hidden md:flex'>
-        <li className='p-4'>HOME</li>
-        <li className='p-4'>COMPANY</li>
-        <li className='p-4'>RESOUCES</li>
-        <li className='p-4'>ABOUT</li>
-        <li className='p-4'>CONTACT</li>
+        <li className='p-4 hover:text-[#00df9a] hover:font-bold '>HOME</li>
+        <li className='p-4 hover:text-[#00df9a] hover:font-bold '>COMPANY</li>
+        <li className='p-4 hover:text-[#00df9a] hover:font-bold '>RESOUCES</li>
+        <li className='p-4 hover:text-[#00df9a] hover:font-bold '>ABOUT</li>
+        <li className='p-4 hover:text-[#00df9a] hover:font-bold '>CONTACT</li>
       </ul>
 
       <div onClick={handleNav} className='block md:hidden'>
